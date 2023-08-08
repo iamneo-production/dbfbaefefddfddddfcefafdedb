@@ -2,22 +2,13 @@ package model;
 
 import java.time.LocalDate;
 
-public class Flight {
+public class Flight{
     private int noOfPersons;
     private String classType;
     private int rates;
     private LocalDate from;
     private LocalDate to;
     private String triptype;
-
-    public Flight(int noOfPersons, String classType,int rates, LocalDate from, LocalDate to, String triptype) {
-        this.noOfPersons = noOfPersons;
-        this.classType=classType;
-        this.rates = rates;
-        this.from = from;
-        this.to = to;
-        this.triptype = triptype;
-    }
 
     public int getNoOfPersons() {
         return noOfPersons;
@@ -66,4 +57,14 @@ public class Flight {
     public void setTriptype(String triptype) {
         this.triptype = triptype;
     }
+
+    public Flight(int noOfPersons, String classType, int rates, LocalDate from, LocalDate to, String triptype) {
+        this.noOfPersons = noOfPersons;
+        this.classType = classType;
+        this.rates = rates;
+        this.from = from;
+        this.to = to;
+        this.triptype = triptype;
+    }
+    	
 }

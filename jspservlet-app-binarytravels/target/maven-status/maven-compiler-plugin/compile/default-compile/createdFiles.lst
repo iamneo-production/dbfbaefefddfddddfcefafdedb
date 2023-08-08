@@ -2,8 +2,8 @@ services/FareCalculator.class
 model/Bus.class
 controller/HotelServlet.class
 model/Flight.class
-controller/FlightServlet.class
 services/Booking.class
+controller/FlightServlet.class
 controller/TrainServlet.class
 model/Train.class
 model/Hotel.class
